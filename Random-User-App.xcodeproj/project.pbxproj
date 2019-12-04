@@ -17,6 +17,8 @@
 		BE14AE4C2395A03800C925FE /* randomUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = BE14AE4B2395A03800C925FE /* randomUsers.json */; };
 		BE14AE4E2395A1E200C925FE /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14AE4D2395A1E200C925FE /* Bundle+Extension.swift */; };
 		BE14AE522395AAB700C925FE /* RandomUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14AE512395AAB700C925FE /* RandomUserData.swift */; };
+		BE3448422396B653002410F1 /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3448412396B653002410F1 /* WeatherTests.swift */; };
+		BE3448442396B68D002410F1 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3448432396B68D002410F1 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BE14AE4B2395A03800C925FE /* randomUsers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = randomUsers.json; sourceTree = SOURCE_ROOT; };
 		BE14AE4D2395A1E200C925FE /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "Random-User-AppTests/Bundle+Extension.swift"; sourceTree = SOURCE_ROOT; };
 		BE14AE512395AAB700C925FE /* RandomUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserData.swift; sourceTree = SOURCE_ROOT; };
+		BE3448412396B653002410F1 /* WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTests.swift; sourceTree = "<group>"; };
+		BE3448432396B68D002410F1 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				BE14AE512395AAB700C925FE /* RandomUserData.swift */,
+				BE3448432396B68D002410F1 /* Weather.swift */,
 				BE14AE4D2395A1E200C925FE /* Bundle+Extension.swift */,
 				BE14AE4B2395A03800C925FE /* randomUsers.json */,
 				BE14AE2923959F1600C925FE /* AppDelegate.swift */,
@@ -104,6 +109,7 @@
 			children = (
 				BE14AE4023959F1900C925FE /* Random_User_AppTests.swift */,
 				BE14AE4223959F1900C925FE /* Info.plist */,
+				BE3448412396B653002410F1 /* WeatherTests.swift */,
 			);
 			path = "Random-User-AppTests";
 			sourceTree = "<group>";
@@ -214,6 +220,7 @@
 				BE14AE2A23959F1600C925FE /* AppDelegate.swift in Sources */,
 				BE14AE2C23959F1600C925FE /* SceneDelegate.swift in Sources */,
 				BE14AE4E2395A1E200C925FE /* Bundle+Extension.swift in Sources */,
+				BE3448442396B68D002410F1 /* Weather.swift in Sources */,
 				BE14AE522395AAB700C925FE /* RandomUserData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3448422396B653002410F1 /* WeatherTests.swift in Sources */,
 				BE14AE4123959F1900C925FE /* Random_User_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

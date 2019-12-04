@@ -9,16 +9,37 @@
 import Foundation
 
 extension Bundle {
-    static func readRawJSONData(fileName: String, ext: String) -> Data {
-        guard let fileURL = Bundle.main.url(forResource: fileName, withExtension: ext) else {
-            fatalError("resource with filename \(fileName) not found")
+    static func readRawJSONData(filename: String, ext: String) -> Data {
+        
+        guard let fileURL = Bundle.main.url(forResource: filename, withExtension: ext) else {
+            fatalError("resource with filename \(filename) not found")
         }
+        
         var data: Data!
         do {
-        data = try Data.init(contentsOf: fileURL)
+            data = try Data.init(contentsOf: fileURL)
         } catch {
-            fatalError("contents not found error: \(error)")
+            fatalError("contents not founf error: \(error)")
         }
         return data
     }
 }
+
+
+
+
+
+//extension Bundle {
+//    static func readRawJSONData(filename: String, ext: String) -> Data {
+//        guard let fileURL = Bundle.main.url(forResource: filename, withExtension: ext) else {
+//            fatalError("resource with filename \(filename) not found")
+//        }
+//        var data: Data!
+//        do {
+//        data = try Data.init(contentsOf: fileURL)
+//        } catch {
+//            fatalError("contents not found error: \(error)")
+//        }
+//        return data
+//    }
+//}
